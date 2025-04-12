@@ -25,9 +25,8 @@
   position: absolute;
   backface-visibility: hidden;
   padding: 65px 45px;
-  border-radius: 15px;
-  box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 1),
-    inset -1px -1px 5px rgba(255, 255, 255, 0.6);
+  border-radius: 35px;
+  border: 1px solid #E01919;
 }
 
 .form .form_back {
@@ -59,11 +58,8 @@
   outline: none;
   transition: 0.35s;
   padding: 0px 7px;
-  background-color: #212121;
-  border-radius: 6px;
-  border: 2px solid #212121;
-  box-shadow: 6px 6px 10px rgba(0, 0, 0, 1),
-    1px 1px 10px rgba(255, 255, 255, 0.6);
+  border-radius: 30px;
+  border: 1px solid #5b5b5b;
 }
 
 .input::placeholder {
@@ -86,11 +82,8 @@
 .btn {
   padding: 10px 35px;
   cursor: pointer;
-  background-color: #212121;
-  border-radius: 6px;
-  border: 2px solid #212121;
-  box-shadow: 6px 6px 10px rgba(0, 0, 0, 1),
-    1px 1px 10px rgba(255, 255, 255, 0.6);
+  background-color: #E01919;
+  border-radius: 30px;
   color: #fff;
   font-size: 15px;
   font-weight: bold;
@@ -99,17 +92,17 @@
 
 .btn:hover {
   transform: scale(1.05);
-  box-shadow: 6px 6px 10px rgba(0, 0, 0, 1),
+  box-shadow: 6px 6px 10px rgb(184, 19, 19),
     1px 1px 10px rgba(255, 255, 255, 0.6),
-    inset 2px 2px 10px rgba(0, 0, 0, 1),
+    inset 2px 2px 10px rgb(215, 197, 197),
     inset -1px -1px 5px rgba(255, 255, 255, 0.6);
 }
 
 .btn:focus {
   transform: scale(1.05);
-  box-shadow: 6px 6px 10px rgba(0, 0, 0, 1),
+  box-shadow: 6px 6px 10px rgb(199, 181, 181),
     1px 1px 10px rgba(255, 255, 255, 0.6),
-    inset 2px 2px 10px rgba(0, 0, 0, 1),
+    inset 2px 2px 10px rgb(214, 9, 9),
     inset -1px -1px 5px rgba(255, 255, 255, 0.6);
 }
 
@@ -130,4 +123,10 @@
 
 .container #signup_toggle:checked+.form {
   transform: rotateY(-180deg);
+}
+
+.LogoInicio { 
+  width: 550px;
+
+
 }

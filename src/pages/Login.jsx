@@ -18,9 +18,11 @@ function Login() {
 
   return (
     <div className="container">
+      
       <input id="signup_toggle" type="checkbox" />
       <form className="form">
         <div className="form_front">
+        <img className="LogoInicio" src="/public/01 Welcome-to-Doit.png" alt="Logo" />
           <div className="form_details">Login</div>
           <input onChange={(e) => setUsuario(e.target.value)} type="text" className="input" placeholder="Username" />
           <input onChange={(e) => setPassword(e.target.value)} type="text" className="input" placeholder="Password" />
